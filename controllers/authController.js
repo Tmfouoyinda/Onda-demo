@@ -74,7 +74,7 @@ const sendCode = async (req, res) => {
     }
     
     res.json({
-        status: "sucess",
+        status: "success",
         message: "Code sent successfully"
     })
 }
