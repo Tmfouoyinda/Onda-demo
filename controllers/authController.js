@@ -72,20 +72,7 @@ const sendCode = async (req, res) => {
             devCode: code,
         });
     }
-
-    res.json({
-        status: "Success",
-        message: "Code sent  if (
-    process.env.NODE_ENV === "development" &&
-    process.env.DEV_OTP_SECRET
-    ) {
-        return res.status(200).json({
-            status: "success",
-            message: "Code generated",
-            devCode: code,
-        });
-    }
-
+    
     res.json({
         status: "sucess",
         message: "Code sent successfully"
